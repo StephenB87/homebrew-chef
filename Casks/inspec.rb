@@ -14,7 +14,7 @@ cask "inspec" do
   name "InSpec by Chef"
   homepage "https://community.chef.io/tools/chef-inspec/"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   pkg "inspec-#{version}-1.x86_64.pkg"
 
